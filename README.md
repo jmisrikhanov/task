@@ -42,7 +42,7 @@ pnpm install
 ```
 Then start the application.
 ```bash
-pnpm start
+pnpm run dev
 ```
 To run test case;
 ```bash
