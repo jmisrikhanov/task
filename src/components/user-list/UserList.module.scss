@@ -1,0 +1,14 @@
+.list {
+  display: grid;
+  gap: 0.5rem;
+  padding: 0;
+  list-style: none;
+}
+.placeholder {
+  color: #666;
+  font-size: 0.95rem;
+}
+.error {
+  color: #b00020;
+  font-weight: 600;
+}

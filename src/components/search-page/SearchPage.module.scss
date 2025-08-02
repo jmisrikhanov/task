@@ -1,0 +1,33 @@
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 1rem;
+  align-items: start;
+
+  .left {
+    display: grid;
+    gap: 0.75rem;
+
+    .listWrap {
+      background: #fafafa;
+      border: 1px solid #eee;
+      border-radius: 12px;
+      padding: 0.75rem;
+      max-height: 70vh;
+      overflow: auto;
+    }
+  }
+
+  .right {
+    position: sticky;
+    top: 0.75rem;
+  }
+
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+
+    .right {
+      position: static;
+    }
+  }
+}

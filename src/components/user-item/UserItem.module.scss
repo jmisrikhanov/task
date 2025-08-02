@@ -1,0 +1,33 @@
+.item {
+  display: grid;
+  grid-template-columns: 36px 1fr;
+  gap: 0.6rem;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background: #fff;
+  cursor: pointer;
+  text-align: left;
+
+  &:hover {
+    border-color: #eaeaea;
+  }
+
+  &.selected {
+    border-color: #b8d0ff;
+    background: #f4f8ff;
+  }
+
+  .avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+  }
+
+  .login {
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
